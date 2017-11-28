@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  myordersappservice.netcore:
+    image: myordersappservice.netcore
+    build:
+      context: ./MyOrdersAppService.NetCore
+      dockerfile: Dockerfile

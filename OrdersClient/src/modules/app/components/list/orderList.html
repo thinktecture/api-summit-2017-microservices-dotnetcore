@@ -1,0 +1,19 @@
+<h1>List of orders</h1>
+
+<table class="table">
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Created</th>
+      <th>Shipping</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let order of orders">
+      <td>{{ order.id }}</td>
+      <td>{{ order.created | date: 'dd.MM.yyyy HH:mm' }}</td>
+      <td *ngIf="order.shippingCreated"><i class="fa fa-check"></i></td>
+      <td *ngIf="!order.shippingCreated"> </td>
+    </tr>
+  </tbody>
+</table>

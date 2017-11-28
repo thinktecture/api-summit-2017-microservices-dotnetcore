@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  ordersservice.netcore:
+    image: ordersservice.netcore
+    build:
+      context: ./OrdersService.NetCore
+      dockerfile: Dockerfile

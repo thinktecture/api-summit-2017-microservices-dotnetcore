@@ -1,0 +1,24 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="OrdersService.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="RabbitMqConnectionString" Type="System.String" Scope="User">
+      <Value Profile="(Default)">host=localhost</Value>
+    </Setting>
+    <Setting Name="WebApiBaseUrl" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://localhost:7777/</Value>
+    </Setting>
+    <Setting Name="WebApiHealthUrl" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://10.0.75.1:7777/api/health/ping</Value>
+    </Setting>
+    <Setting Name="SeqBaseUrl" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://localhost:5341</Value>
+    </Setting>
+    <Setting Name="IdSrvBaseUrl" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://localhost:5000</Value>
+    </Setting>
+    <Setting Name="SelfHostBaseUrl" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://*:7777/</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

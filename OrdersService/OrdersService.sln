@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrdersService", "OrdersService\OrdersService.csproj", "{DF91E066-E1AA-47D9-81FF-E06F200AED8C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrdersServiceSimpleDiscoveryClient", "OrdersServiceSimpleDiscoveryClient\OrdersServiceSimpleDiscoveryClient.csproj", "{AF141030-AAA7-4CE3-8E95-36BBF70AB7DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QueuingMessages", "Messages\QueuingMessages.csproj", "{8A7EEBC6-858C-4FEF-8F13-17480C5A4C9E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TestClients", "TestClients", "{364135C8-F039-4782-ABBA-72614B79ADE8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrdersService.NetCore", "OrdersService.NetCore\OrdersService.NetCore.csproj", "{14030FF7-B9B4-4233-A323-CDB857B2C6AD}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{6EDD261A-0E6E-4602-9DE6-A6CA41F740FA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DF91E066-E1AA-47D9-81FF-E06F200AED8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF91E066-E1AA-47D9-81FF-E06F200AED8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF91E066-E1AA-47D9-81FF-E06F200AED8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF91E066-E1AA-47D9-81FF-E06F200AED8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF141030-AAA7-4CE3-8E95-36BBF70AB7DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF141030-AAA7-4CE3-8E95-36BBF70AB7DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF141030-AAA7-4CE3-8E95-36BBF70AB7DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF141030-AAA7-4CE3-8E95-36BBF70AB7DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A7EEBC6-858C-4FEF-8F13-17480C5A4C9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A7EEBC6-858C-4FEF-8F13-17480C5A4C9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A7EEBC6-858C-4FEF-8F13-17480C5A4C9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A7EEBC6-858C-4FEF-8F13-17480C5A4C9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14030FF7-B9B4-4233-A323-CDB857B2C6AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14030FF7-B9B4-4233-A323-CDB857B2C6AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14030FF7-B9B4-4233-A323-CDB857B2C6AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14030FF7-B9B4-4233-A323-CDB857B2C6AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EDD261A-0E6E-4602-9DE6-A6CA41F740FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EDD261A-0E6E-4602-9DE6-A6CA41F740FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EDD261A-0E6E-4602-9DE6-A6CA41F740FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EDD261A-0E6E-4602-9DE6-A6CA41F740FA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AF141030-AAA7-4CE3-8E95-36BBF70AB7DF} = {364135C8-F039-4782-ABBA-72614B79ADE8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E41D7CB5-6CC2-43D1-98E8-524B6459312C}
+	EndGlobalSection
+EndGlobal

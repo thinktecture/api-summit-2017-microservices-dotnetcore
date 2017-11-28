@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <DockerComposeProjectPath>..\docker-compose.dcproj</DockerComposeProjectPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.0" />
+  </ItemGroup>
+
+  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+    <Exec Command="cmd /x /c mkdir &quot;$(TargetDir)client\&quot;&#xD;&#xA;xcopy &quot;$(SolutionDir)..\OrdersClient\dist\web\*.*&quot; &quot;$(ProjectDir)\client\&quot; /E /I /F /Y&#xD;&#xA;" />
+  </Target>
+
+</Project>

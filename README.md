@@ -1,0 +1,1 @@
+# Simple sample application showing Microservices architecture implemented with plain .NET & .NET Core
