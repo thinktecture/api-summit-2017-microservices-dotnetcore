@@ -15,7 +15,6 @@ export class PushService {
   }
 
   public start(): void {
-    // TODO: create connection
     this._hubConnection = new HubConnection(this._config.SignalRBaseUrl + 'ordersHub' + '?authorization=' + this._securityService.accessToken);
     
     this._hubConnection.on('orderCreated', () => {
